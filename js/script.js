@@ -158,16 +158,16 @@ function checkVote(code) {
 
           if (partyString == "Conservative") {
             document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesNeutralCon[code]}: `;
-            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/img/f.png" width = 48px title="Absent or Abstained"/>`;
+            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="img/f.png" width = 48px title="Absent or Abstained"/>`;
           } else if (partyString == "Labour") {
             document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesNeutralLab[code]}: `;
-            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/img/absent.png" width = 48px title="Absent or Abstained"/>`;
+            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="img/absent.png" width = 48px title="Absent or Abstained"/>`;
           } else if (partyString == "Labour and Co-operative") {
             document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesNeutralLab[code]}: `;
-            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/img/absent.png" width = 48px title="Absent or Abstained"/>`;
+            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="img/absent.png" width = 48px title="Absent or Abstained"/>`;
           } else {
             document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesNeutralLab[code]}: `;
-            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/img/absent.png" width = 48px title="Absent or Abstained"/>`;
+            document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="img/absent.png" width = 48px title="Absent or Abstained"/>`;
           }
 
 
@@ -175,7 +175,7 @@ function checkVote(code) {
           for (let k = 0; k < ayeTellersArray.length; k++) {
             if (ayeTellersArray[k].MemberId === mpID) {
               document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesFor[code]}: `;
-              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/${forImage[code]}" width = 48px title="For"/>`;
+              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="${forImage[code]}" width = 48px title="For"/>`;
               console.log(`voteOutcome${code}: Aye`);
               break;
             }
@@ -184,7 +184,7 @@ function checkVote(code) {
           for (let l = 0; l < ayesArray.length; l++) {
             if (ayesArray[l].MemberId === mpID) {
               document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesFor[code]}: `;
-              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/${forImage[code]}" width = 48px title="For"/>`;
+              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="${forImage[code]}" width = 48px title="For"/>`;
               console.log(`voteOutcome${code}: Aye`);
               break;
             }
@@ -193,7 +193,7 @@ function checkVote(code) {
           for (let m = 0; m < noTellersArray.length; m++) {
             if (noTellersArray[m].MemberId === mpID) {
               document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesAgainst[code]}: `;
-              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/${againstImage[code]}" width = 48px title="Against"/>`;
+              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="${againstImage[code]}" width = 48px title="Against"/>`;
               console.log(`voteOutcome${code}: No`);
               break;
             }
@@ -202,7 +202,7 @@ function checkVote(code) {
           for (let n = 0; n < noesArray.length; n++) {
             if (noesArray[n].MemberId === mpID) {
               document.getElementById(`issue${code+1}Name`).innerHTML = `${issuesAgainst[code]}: `;
-              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="report-card/${againstImage[code]}" width = 48px title="Against"/>`;
+              document.getElementById(`voteOutcome${code+1}`).innerHTML = `<img src="${againstImage[code]}" width = 48px title="Against"/>`;
               console.log(`voteOutcome${code}: No`);
               break;
             }
