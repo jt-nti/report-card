@@ -71,8 +71,8 @@ let issuesFor = ['Voted to allow private companies dumping sewage in rivers', 'V
 let issuesAgainst = ['Voted to ban private companies from dumping sewage in our rivers', 'Voted against keeping the Universal Credit uplift for low earners', 'Voted to ban second jobs for MPs', 'Voted to support social care AND the low paid', 'Voted against free school meals']
 let issuesNeutralLab = ['Was not present for the vote on sewage dumping in rivers', 'Was not present for the vote on keeping the Universal Credit uplift for low earners', 'Was not present for the vote on MPs having second jobs', 'Was not present for the vote on tax hikes to fund social care', 'Was not present to vote on keeping free school meals']
 let issuesNeutralCon = ['Did not vote against sewage dumping in rivers', 'Did not vote to keep the Universal Credit uplift for low earners', 'Did not vote against MPs having dodgy second jobs', 'Did not vote against tax hikes to fund social care', 'Did not vote to keep funding free school meals']
-let forImage = ['img/F.png', 'img/A.png', 'img/F.png', 'img/F.png', 'img/A.png'];
-let againstImage = ['img/A.png', 'img/F.png', 'img/A.png', 'img/A.png', 'img/F.png'];
+let forImage = ['/img/F.png', '/img/A.png', '/img/F.png', '/img/F.png', '/img/A.png'];
+let againstImage = ['/img/A.png', '/img/F.png', '/img/A.png', '/img/A.png', '/img/F.png'];
 let voteCodes = [1116, 1099, 1124, 1147, 940]
 
 let constituency
