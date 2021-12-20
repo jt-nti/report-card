@@ -41,7 +41,7 @@ function generateGraphic() {
 
   html2canvas(document.querySelector("#mpInfoBox"), {
     useCORS:true,
-    proxy: 'https://mpreportcard.netlify.app',
+    proxy: 'https://mpreportcard.github.io/report-card',
     windowWidth: mpInfoBox.width,
     width: mpInfoBox.width,
     windowHeight: mpInfoBox.height,
@@ -98,7 +98,7 @@ form.addEventListener("submit", e => {
   let postcode = formData.get("postcode")
 
   function printMessageToScreen(constituencyString){
-  fetch(`https://mpreportcard.netlify.app/js/constituencies.json`)
+  fetch(`https://mpreportcard.github.io/report-card/js/constituencies.json`)
       .then(res => res.json())
       .then(data => {
       if(constituencyString == undefined) {
