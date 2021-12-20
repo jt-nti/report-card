@@ -1,0 +1,109 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Your MP's 2021 Report Card</title>
+  <meta name="description" content="See how your MP voted on the issues that matter most.">
+
+  <!-- Facebook Meta Tags -->
+  <meta property="og:url" content="">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Your MP's 2021 Report Card">
+  <meta property="og:description" content="See how your MP voted on the issues that matter most.">
+  <meta property="og:image" content="https://mpreportcard.netlify.app/img/meta.png">
+
+  <!-- Twitter Meta Tags -->
+  <meta property="twitter:url" content="">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Your MP's 2021 Report Card">
+  <meta name="twitter:description" content="See how your MP voted on the issues that matter most.">
+  <meta name="twitter:image" content="https://mpreportcard.netlify.app/img/meta.png">
+  <meta name="twitter:image" content="https://mpreportcard.netlify.app/img/meta.png"></meta>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=BenchNine:wght@300;400;700&display=swap" rel="stylesheet">
+
+  <!-- Adobe Fonts -->
+  <link rel="stylesheet" href="https://use.typekit.net/vtr8enx.css">
+
+  <!-- CSS Link -->
+  <link href="css/style.css" rel="stylesheet">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/cross.png" type="image/x-icon">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Q8YCYBEL85"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Q8YCYBEL85');
+</script>
+
+<script src="js/html2canvas.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+</head>
+<body>
+<div class="flex-container" id="container">
+  <div class="flex-container" id="splash">
+    <h1>How did your MP vote on the issues that mattered most this year?</h1>
+    <h2>Enter your postcode to get their 2021 Report Card.</h2>
+
+  <div id="form">
+    <form name="postcode" id="postcode">
+      <p id="error"></p>
+      <label for="postcode">Your Postcode</label><br />
+      <input type="text" name="postcode" minlength="5" maxlength="8" required ><a href="#localData"><button name="submit" type="submit" id="button" form="postcode" value="Submit">Submit</button></a>
+    </form>
+    <h1 id="loading">Loading...</h1>
+  </div>
+  </div>
+
+  <div class="flex-container" id="mpInfoBox">
+    <div id="mpInfoMain">
+    <div class="flex-container" id="photoBox">
+      <img id="mpPhoto" align="left" src="" />
+      <ul id="mpInfo">
+        <h1 id="reportCardTitle">Your MP's 2021 Report Card</h1>
+        <li>Your MP: <span id="mpNameBullet"></span></li>
+        <li>Party: <span id="partyBullet"></span></li>
+        <li>Constituency: <span id="constituencyBullet"></span></li>
+      </ul>
+    </div>
+    <div class="flex-container" id="votingBox">
+      <h2>How your MP voted on these key issues this year:</h2>
+      <table id="mpInfo">
+        <tr><th><span id="issue1Name"></span></th><th><span id="voteOutcome1"></span></th></tr>
+        <tr><th><span id="issue2Name"></span></th><th><span id="voteOutcome2"></span></th></tr>
+        <tr><th><span id="issue3Name"></span></th><th><span id="voteOutcome3"></span></th></tr>
+        <tr><th><span id="issue4Name"></span></th><th><span id="voteOutcome4"></span></th></tr>
+        <tr><th><span id="issue5Name"></span></th><th><span id="voteOutcome5"></span></th></tr>
+      </table>
+    </div>
+  </div>
+    <div id="graphicBox">
+      <button name="graphic button" id="graphicButton" data-html2canvas-ignore="true">Download as Graphic</button>
+    </div>
+    <div id="graphicOutput"></div>
+  </div>
+
+
+</div>
+
+<div class="flex-container" id="socials">
+  <a id="fbLink" href="#" target="_blank"><div id="fbButton">Share on Facebook</div></a>
+  <a id="twtLink" href="#" target="_blank"><div id="twtButton">Share on Twitter</div></a>
+  <a id="waLink" href="#" target="_blank"><div id="waButton">Share on WhatsApp</div></a>
+</div>
+
+<p id="disclaimer">This site uses the UK Parliament API, documented <a href="https://members-api.parliament.uk/index.html" target="_blank">here</a>. All data is drawn from official Parliamentary sources.</p>
+
+<script src="js/script.js"></script>
+</body>
+</html>

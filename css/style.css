@@ -1,0 +1,328 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * bebas-neue-by-fontfabric:
+ *   - http://typekit.com/eulas/00000000000000007735c06b
+ *   - http://typekit.com/eulas/00000000000000007735c070
+ *   - http://typekit.com/eulas/00000000000000007735c075
+ *   - http://typekit.com/eulas/00000000000000007735c07a
+ *   - http://typekit.com/eulas/00000000000000007735c080
+ * niveau-grotesk:
+ *   - http://typekit.com/eulas/00000000000000007735b52b
+ *   - http://typekit.com/eulas/00000000000000007735b531
+ *   - http://typekit.com/eulas/00000000000000007735b53a
+ *   - http://typekit.com/eulas/00000000000000007735b53c
+ * niveau-grotesk-small-caps:
+ *   - http://typekit.com/eulas/00000000000000007735b51f
+ *   - http://typekit.com/eulas/00000000000000007735b528
+ *
+ * © 2009-2021 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2021-11-06 19:26:45 UTC"}*/
+
+@import url("https://p.typekit.net/p.css?s=1&k=vtr8enx&ht=tk&f=27081.27082.27085.27086.27091.27093.37896.37897.37898.37899.37900&a=92036542&app=typekit&e=css");
+
+@font-face {
+font-family:"niveau-grotesk";
+src:url("https://use.typekit.net/af/b28757/00000000000000007735b52b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff2"),url("https://use.typekit.net/af/b28757/00000000000000007735b52b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("woff"),url("https://use.typekit.net/af/b28757/00000000000000007735b52b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i4&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:400;
+}
+
+@font-face {
+font-family:"niveau-grotesk";
+src:url("https://use.typekit.net/af/743863/00000000000000007735b531/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/743863/00000000000000007735b531/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/743863/00000000000000007735b531/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"niveau-grotesk";
+src:url("https://use.typekit.net/af/510a8b/00000000000000007735b53a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff2"),url("https://use.typekit.net/af/510a8b/00000000000000007735b53a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("woff"),url("https://use.typekit.net/af/510a8b/00000000000000007735b53a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3") format("opentype");
+font-display:auto;font-style:italic;font-weight:700;
+}
+
+@font-face {
+font-family:"niveau-grotesk";
+src:url("https://use.typekit.net/af/79d08f/00000000000000007735b53c/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/79d08f/00000000000000007735b53c/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/79d08f/00000000000000007735b53c/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"niveau-grotesk-small-caps";
+src:url("https://use.typekit.net/af/8de7e4/00000000000000007735b51f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/8de7e4/00000000000000007735b51f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/8de7e4/00000000000000007735b51f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"niveau-grotesk-small-caps";
+src:url("https://use.typekit.net/af/ee16ae/00000000000000007735b528/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/ee16ae/00000000000000007735b528/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/ee16ae/00000000000000007735b528/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+@font-face {
+font-family:"bebas-neue-by-fontfabric";
+src:url("https://use.typekit.net/af/03ac0d/00000000000000007735c06b/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff2"),url("https://use.typekit.net/af/03ac0d/00000000000000007735c06b/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("woff"),url("https://use.typekit.net/af/03ac0d/00000000000000007735c06b/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n1&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:100;
+}
+
+@font-face {
+font-family:"bebas-neue-by-fontfabric";
+src:url("https://use.typekit.net/af/c54646/00000000000000007735c070/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"),url("https://use.typekit.net/af/c54646/00000000000000007735c070/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"),url("https://use.typekit.net/af/c54646/00000000000000007735c070/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:400;
+}
+
+@font-face {
+font-family:"bebas-neue-by-fontfabric";
+src:url("https://use.typekit.net/af/6b3124/00000000000000007735c075/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff2"),url("https://use.typekit.net/af/6b3124/00000000000000007735c075/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("woff"),url("https://use.typekit.net/af/6b3124/00000000000000007735c075/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n2&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:200;
+}
+
+@font-face {
+font-family:"bebas-neue-by-fontfabric";
+src:url("https://use.typekit.net/af/d1d56d/00000000000000007735c07a/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff2"),url("https://use.typekit.net/af/d1d56d/00000000000000007735c07a/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("woff"),url("https://use.typekit.net/af/d1d56d/00000000000000007735c07a/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n3&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:300;
+}
+
+@font-face {
+font-family:"bebas-neue-by-fontfabric";
+src:url("https://use.typekit.net/af/c639c3/00000000000000007735c080/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff2"),url("https://use.typekit.net/af/c639c3/00000000000000007735c080/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("woff"),url("https://use.typekit.net/af/c639c3/00000000000000007735c080/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3") format("opentype");
+font-display:auto;font-style:normal;font-weight:700;
+}
+
+.tk-niveau-grotesk { font-family: "niveau-grotesk",sans-serif; }
+.tk-niveau-grotesk-small-caps { font-family: "niveau-grotesk-small-caps",sans-serif; }
+.tk-bebas-neue-by-fontfabric { font-family: "bebas-neue-by-fontfabric",sans-serif; }
+
+#error {
+  color: #e4003b;
+}
+
+#disclaimer {
+  color: #222222;
+  font-size: 16px;
+  position: fixed;
+  bottom: -2%;
+  left: 0px;
+  text-align: center;
+  background-color: #f9d5d5;
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#graphicOutput {
+  display: none;
+}
+
+#loading {
+  display: none;
+}
+
+body {
+  background-color: #fff5f5;
+}
+
+@media only screen and (min-width: 1460px) {
+  #container {
+    flex-direction: row;
+    padding: 2%;
+  }
+}
+
+@media only screen and (max-width: 1459px) {
+  #container {
+    flex-direction: column-reverse;
+    padding: 2%;
+  }
+}
+
+#leftbox {
+  margin-bottom: 5%;
+}
+
+.opac{opacity: 1 !important;}
+
+#splash {
+  text-align: left;
+  text-transform: uppercase;
+  flex-direction: column;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin: 2%;
+  width: 600px;
+}
+
+#splash h1 { font-family: 'bebas-neue-by-fontfabric', sans-serif; text-transform: uppercase; font-weight: 700; font-size: 72px; line-height: 1;}
+
+h1 { font-family: 'bebas-neue-by-fontfabric', sans-serif; font-weight: 700; font-size: 72px; line-height: 1; color: 222222;}
+h2 { font-family: niveau-grotesk, sans-serif; font-weight: 700; font-style: normal; font-size: 36px; line-height: 1; color: 222222;}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: normal;
+  align-items: start;
+  align-content: normal;
+}
+
+.flex-child {
+  justify-content: flex-start;
+  padding: 50px;
+}
+
+#postcode {
+
+}
+
+input {
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  border: none;
+  margin-bottom: 2%;
+  margin-top: 1%;
+  border: 3px solid #222222;
+  padding: 12px;
+  font-size: 24px;
+  width: 60%;
+  color: #222222;
+}
+
+label { font-family: niveau-grotesk, sans-serif;
+font-weight: 700;
+font-style: normal;
+        margin-bottom: 2%;
+        font-size: 24px;
+        text-align: left;
+        color: 222222;
+      }
+#postcode button { font-family: niveau-grotesk, sans-serif;
+font-weight: 700;
+font-style: normal;
+        font-size: 24px;
+        background-color: #e4003b;
+        color: #ffffff;
+        border: none;
+        padding: 12px;
+        border-right: 3px solid #222222;
+        border-top: 3px solid #222222;
+        border-bottom: 3px solid #222222;
+      }
+
+p { font-family: niveau-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 700;
+  font-style: normal;
+    font-size: 16px;
+  }
+
+a {
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #e4003b;
+  text-decoration: none;
+}
+
+#mpInfoBox {
+  display: none;
+  margin: 25px;
+  background-color: #fff5f5;
+}
+
+#mpInfoMain {
+  font-family: niveau-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  color: #222222;
+  border: 3px solid #222222;
+  padding: 25px;
+  min-width: 600px;
+}
+
+#votingBox {
+  flex-direction: column;
+}
+
+th, td {
+  padding: 10px;
+}
+
+#graphicButton {
+  width: 100%;
+  min-width: 600px;
+}
+
+#graphicButton { font-family: niveau-grotesk, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  background-color: #e4003b;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-right: 3px solid #222222;
+  border-left: 3px solid #222222;
+  border-bottom: 3px solid #222222;
+}
+
+#reportCardTitle {
+  font-size: 60px;
+  line-height: 0.8;
+  margin-top: -5%;
+  color: #222222;
+}
+
+#mpInfo {
+  list-style-type: none;
+  text-align: left;
+}
+
+#mpName {
+  color: #ffda1f;
+}
+
+#voteString {
+  color: #98c8ff;
+}
+
+#mpPhoto {
+  border-radius: 50%;
+  border: 3px solid #222222;
+  filter: grayscale();
+  width: 30%;
+}
+
+#socials div {
+  color: white;
+  padding: 1%;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  width: 100%;
+  text-align: center;
+  border-radius: 5px;
+  display: none;
+}
+
+#twtButton {
+  background-color: #222222;
+}
+
+#fbButton {
+  background-color: #222222;
+}
+
+#waButton {
+  background-color: #222222;
+}
